@@ -1,0 +1,18 @@
+/* C:\Users\hruth\Desktop\sure_trust_projects\oranges_form_project\frontend\src\MainComponent\styles\ProductList.css */
+
+.product-list-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.product-list-container h1 {
+  color: #e65100;
+  margin-bottom: 40px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  justify-items: center;
+}

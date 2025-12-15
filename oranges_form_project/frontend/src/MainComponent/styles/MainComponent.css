@@ -1,0 +1,12 @@
+/* C:\Users\hruth\Desktop\sure_trust_projects\oranges_form_project\frontend\src\MainComponent\styles\MainComponent.css */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures footer is at the bottom */
+}
+
+.content {
+  flex-grow: 1; /* Allows content to take up available space */
+  padding: 20px; /* Example padding */
+}

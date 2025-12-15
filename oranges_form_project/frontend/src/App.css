@@ -1,0 +1,104 @@
+/* Global Styles */
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* App Background */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff8e1; /* Light orange-cream */
+}
+
+/* Login/Registration Form */
+.login-form {
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.95); /* Translucent white */
+  border-radius: 12px;
+  width: 340px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* soft dark shadow */
+  border: 2px solid #0c0801; /* dark border */
+}
+
+/* Heading */
+.login-form h2 {
+  text-align: center;
+  color: #e65100; /* Dark orange */
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #ffa726;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #000;
+  border-radius: 30px;
+}
+
+/* Input focus highlight */
+.login-form input:focus {
+  outline: none;
+  border-color: #ff9800;
+  box-shadow: 0 0 5px rgba(255, 152, 0, 0.5);
+}
+
+/* Buttons */
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff9800; /* Orange */
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+}
+
+.login-form button:hover {
+  background-color: #e65100; /* Darker orange */
+}
+
+/* Password Rule List (if used) */
+.login-form ul {
+  margin-top: -10px;
+  margin-bottom: 15px;
+  padding-left: 18px;
+}
+
+.login-form ul li {
+  font-size: 12px;
+}
+
+/* Small text like "Register now" */
+.login-form p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.login-form span {
+  color: #ff9800;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/*login to organge storm title*/
+.login-form h2 {
+  text-align: center;
+  color: #e65100; /* Dark orange */
+  margin-bottom: 20px;
+  font-weight: 600; /* medium-bold, smooth */
+  font-size: 24px;
+}

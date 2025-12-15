@@ -1,0 +1,9 @@
+/* C:\Users\hruth\Desktop\sure_trust_projects\oranges_form_project\frontend\src\MainComponent\styles\Footer.css */
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto; /* Pushes footer to the bottom */
+}
